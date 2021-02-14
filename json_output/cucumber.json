@@ -1,0 +1,214 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Calculate Borrowing Capacity",
+        "description": "",
+        "id": "home-loan-borrowing-capacity-calculator;calculate-borrowing-capacity",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 48907196700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on how much could I borrow page",
+            "match": {
+              "location": "StepDefinition.user_is_on_how_much_could_I_borrow_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 368491100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user selects Application Type",
+            "match": {
+              "location": "StepDefinition.the_user_selects_Application_Type()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1060600,
+              "error_message": "java.lang.Error: Unresolved compilation problem: \n\tThe constructor Select(String) is undefined\n\r\n\tat com.qa.pages.BorrowingCalculatorPage.selectNumberOfDependants(BorrowingCalculatorPage.java:80)\r\n\tat com.qa.stepDefinitions.StepDefinition.the_user_selects_Number_of_dependants(StepDefinition.java:50)\r\n\tat ✽.Then the user selects Number of dependants(C:/Users/hp/eclipse-workspace/BorrowingCapacityCalculator123/src/main/java/com/qa/features/BorrowingCapacityCalculator.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "the user selects Number of dependants",
+            "match": {
+              "location": "StepDefinition.the_user_selects_Number_of_dependants()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the user selects Property you would like to buy",
+            "match": {
+              "location": "StepDefinition.the_user_selects_Property_you_would_like_to_buy()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "the user enters Your Income",
+            "match": {
+              "location": "StepDefinition.the_user_enters_Your_Income()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "the user enters Your other Income",
+            "match": {
+              "location": "StepDefinition.the_user_enters_Your_other_Income()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "the user enters Living expenses",
+            "match": {
+              "location": "StepDefinition.the_user_enters_Living_expenses()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "the user enter Current home loan repayments",
+            "match": {
+              "location": "StepDefinition.the_user_enter_Current_home_loan_repayments()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "the user enter Other loan repayments",
+            "match": {
+              "location": "StepDefinition.the_user_enter_Other_loan_repayments()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "the user enter Other commitments",
+            "match": {
+              "location": "StepDefinition.the_user_enter_Other_commitments()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "the user enter Total credit card limits",
+            "match": {
+              "location": "StepDefinition.the_user_enter_Total_credit_card_limits()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "click on how much I could borrow button",
+            "match": {
+              "location": "StepDefinition.click_on_how_much_I_could_borrow_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "the borrowing capacity should be displayed",
+            "match": {
+              "location": "StepDefinition.the_borrowing_capacity_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "",
+        "description": "",
+        "id": "home-loan-borrowing-capacity-calculator;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4220300,
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat com.qa.stepDefinitions.StepDefinition.the_start_over_button_is_displayed_on_the_borrowing_calculator_page(StepDefinition.java:117)\r\n\tat ✽.Given the start over button is displayed on the borrowing calculator page(C:/Users/hp/eclipse-workspace/BorrowingCapacityCalculator123/src/main/java/com/qa/features/BorrowingCapacityCalculator.feature:19)\r\n",
+              "status": "pending"
+            },
+            "line": 19,
+            "name": "the start over button is displayed on the borrowing calculator page",
+            "match": {
+              "location": "StepDefinition.the_start_over_button_is_displayed_on_the_borrowing_calculator_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "the user clicks on start over",
+            "match": {
+              "location": "StepDefinition.the_user_clicks_on_start_over()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "the values becomes zero in all the fields",
+            "match": {
+              "location": "StepDefinition.the_values_becomes_zero_in_all_the_fields()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Home Loan Borrowing Capacity Calculator",
+    "description": "",
+    "id": "home-loan-borrowing-capacity-calculator",
+    "keyword": "Feature",
+    "uri": "C:/Users/hp/eclipse-workspace/BorrowingCapacityCalculator123/src/main/java/com/qa/features/BorrowingCapacityCalculator.feature"
+  }
+]

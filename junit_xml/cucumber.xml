@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="49.280968">
+<testcase classname="Home Loan Borrowing Capacity Calculator" name="Calculate Borrowing Capacity" time="49.276748">
+<failure message="java.lang.Error: Unresolved compilation problem: &#10;&#9;The constructor Select(String) is undefined&#10;&#13;&#10;&#9;at com.qa.pages.BorrowingCalculatorPage.selectNumberOfDependants(BorrowingCalculatorPage.java:80)&#13;&#10;&#9;at com.qa.stepDefinitions.StepDefinition.the_user_selects_Number_of_dependants(StepDefinition.java:50)&#13;&#10;&#9;at ✽.Then the user selects Number of dependants(C:/Users/hp/eclipse-workspace/BorrowingCapacityCalculator123/src/main/java/com/qa/features/BorrowingCapacityCalculator.feature:6)&#13;&#10;"><![CDATA[Given user is on how much could I borrow page...............................passed
+When the user selects Application Type......................................passed
+Then the user selects Number of dependants..................................failed
+Then the user selects Property you would like to buy........................skipped
+Then the user enters Your Income............................................skipped
+And the user enters Your other Income.......................................skipped
+And the user enters Living expenses.........................................skipped
+And the user enter Current home loan repayments.............................skipped
+And the user enter Other loan repayments....................................skipped
+And the user enter Other commitments........................................skipped
+And the user enter Total credit card limits.................................skipped
+Then click on how much I could borrow button................................skipped
+Then the borrowing capacity should be displayed.............................skipped
+
+StackTrace:
+java.lang.Error: Unresolved compilation problem: 
+	The constructor Select(String) is undefined
+
+	at com.qa.pages.BorrowingCalculatorPage.selectNumberOfDependants(BorrowingCalculatorPage.java:80)
+	at com.qa.stepDefinitions.StepDefinition.the_user_selects_Number_of_dependants(StepDefinition.java:50)
+	at ✽.Then the user selects Number of dependants(C:/Users/hp/eclipse-workspace/BorrowingCapacityCalculator123/src/main/java/com/qa/features/BorrowingCapacityCalculator.feature:6)
+]]></failure>
+</testcase>
+<testcase classname="Home Loan Borrowing Capacity Calculator" name="" time="0.00422">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given the start over button is displayed on the borrowing calculator page...pending
+Then the user clicks on start over..........................................skipped
+Then the values becomes zero in all the fields..............................skipped
+]]></failure>
+</testcase>
+</testsuite>

@@ -1,0 +1,8 @@
+2021-02-14 23:22:51 INFO  StepDefinition:63 - SecurePay init
+2021-02-14 23:22:55 INFO  StepDefinition:70 - I am in google search page
+2021-02-14 23:22:59 INFO  StepDefinition:77 - I searched for Securepay in google
+2021-02-14 23:23:05 INFO  StepDefinition:83 - I click on the securepay link
+2021-02-14 23:23:06 INFO  StepDefinition:92 - After the securepay page is opened, I click on Contact Us link
+2021-02-14 23:23:08 INFO  StepDefinition:99 - I verify that the page opened is SecurePay Contact us page
+2021-02-14 23:23:11 INFO  StepDefinition:105 - I fill the contact us page
+2021-02-14 23:23:12 INFO  StepDefinition:111 - Quit Browser
